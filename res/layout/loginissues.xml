@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/moon"
+     >
+     
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroupissues"
+        android:orientation="vertical"
+      >
+      <TextView 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textviewtrouble"
+          android:text="Having trouble signing in?"
+          android:textSize="8pt"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:background="#ff993300"
+          android:gravity="center"
+          />
+        <RadioButton 
+            android:id="@+id/btnpassword"
+            android:text="I have forgotten my password"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            
+            />
+        <RadioButton 
+            android:id="@+id/btnusername"
+            android:text="I have forgotten my username"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            />
+        <RadioButton 
+            android:id="@+id/btnotherissues"
+            android:text="I'm having other issues signing in"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            />
+        
+        
+        
+        
+    </RadioGroup>
+
+</LinearLayout>

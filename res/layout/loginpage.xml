@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/moon">
+    
+    
+    <EditText
+        android:id="@+id/edittextlogin" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Useraname"
+        android:textColor="#ff0000"
+        android:textStyle="italic"
+        android:textSize="10pt"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        
+        />
+    <EditText
+        android:id="@+id/edittextpassword" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textColor="#ff0000"
+        android:textStyle="italic"
+        android:textSize="10pt"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/edittextlogin"
+        
+         />
+    
+    <Button 
+        android:id="@+id/buttonsignin"
+        android:text="Sign In"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonstyles"
+        android:layout_below="@+id/edittextpassword"
+        
+        
+      />
+    
+    <TextView
+       android:id="@+id/textviewpassword" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textSize="8pt"
+      android:gravity="center"
+      android:text="Need help?"
+      android:layout_marginTop="10dp"
+      android:layout_below="@+id/buttonsignin"
+      
+      />
+    <ImageButton 
+        android:id="@+id/fbbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fbicon8"
+        android:layout_below="@+id/textviewpassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        
+        />
+     <ImageButton 
+        android:id="@+id/gmailbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gmailicon8"
+        android:layout_below="@+id/textviewpassword"
+        android:layout_toRightOf="@+id/fbbutton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        
+        />
+     <ImageButton 
+        android:id="@+id/twitterbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/twittericon8"
+        android:layout_below="@+id/textviewpassword"
+        android:layout_toRightOf="@+id/gmailbutton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        
+        />
+    
+    
+
+</RelativeLayout>
